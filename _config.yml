@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pluone.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: peiluone
 github_username:  pluone
 
@@ -29,6 +29,19 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+#显示首页文章摘录
+show_excerpts: true
+#指定minima的日期格式
+minima:
+  date_format: "%Y-%m-%d"
+
+#enable Google Analytics
+google_analytics: UA-120229183-1
+
+# 启用评论
+disqus:
+  shortname: pluone
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
