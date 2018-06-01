@@ -15,3 +15,27 @@ jekyll的blog存放在`_posts`目录下,文件名格式是`YEAR-MONTH-DAY-title.
 在本地预览博客内容
 `bundle exec jekyll serve`
 后打开`http://127.0.0.1:4000/`
+
+### 配置文件
+
+```yml
+#默认的主题是minima,博文的日期默认是英文日期格式,可以自定义为`yyyy-MM-dd`的日期格式
+minima:
+  date_format: "%Y-%m-%d"
+
+#首页显示博文摘录
+show_excerpts: true
+
+#启用disqus评论功能,只需要指定shortname即可,默认在生产环境下才会生效
+#需要注册disqus账号,按照disqus官网的提示需要在代码中嵌套js才能开启评论功能,不过所幸minima主题默认已经做了配置,这里只需要指定shortname
+#默认的评论功能是开启的,可以通过在每篇博文的YAML Front Matter上使用`comments : false`关闭评论功能
+disqus:
+  shortname: pluone
+
+#开启Google Analytics,生产环境下才生效
+google_analytics: UA-NNNNNNNN-N
+```
+
+参考:
+
+<https://github.com/jekyll/minima>
