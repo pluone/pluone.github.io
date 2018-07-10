@@ -17,7 +17,7 @@ public interface BeanPostProcessor {
 ```
 
 Spring bean生命周期的图片如下,BPP环绕在Initializer周围.  
-<img src="/asset/bean-lifecycle.jpg" alt="Spring bean生命周期" style="width: 500px;"/>
+<img src="/assets/bean-lifecycle.jpg" alt="Spring bean生命周期" style="width: 500px;"/>
 
 ## 源码解读
 
