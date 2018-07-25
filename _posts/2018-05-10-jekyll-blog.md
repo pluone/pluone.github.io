@@ -50,6 +50,11 @@ google_analytics: UA-NNNNNNNN-N
   }
 ```
 
+### 关于博客主题
+
+当我们使用jekyll new <blog_name> 创建一个博客站点的时候,默认使用的主题是minima,
+可以使用`bundle show minima`来查看主题的目录位置,使用`open $(bundle show minima)`来打开这个目录可以看到主题的目录结构
+
 参考:  
 <https://github.com/jekyll/minima>  
 <https://github.com/stidio/stidio.github.io>
