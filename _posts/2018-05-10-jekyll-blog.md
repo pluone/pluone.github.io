@@ -10,6 +10,7 @@ jekyll的blog存放在`_posts`目录下,文件名格式是`YEAR-MONTH-DAY-title.
 开头必须是 YAML Front Matter,可以理解为博客内容元信息,之后才是内容.
 
 ### 引入图片和其它资源
+
 一般在jekyll根目录下创建asset目录,将资源文件放在该目录下
 
 在本地预览博客内容
@@ -36,6 +37,19 @@ disqus:
 google_analytics: UA-NNNNNNNN-N
 ```
 
-参考:
+### 使用vscode配合markdownlint语法检查
 
-<https://github.com/jekyll/minima>
+需要自定义一些markdownlint的配置项,需要修改vscode的配置文件,添加如下项:
+
+```json
+ "markdownlint.config": {
+        "MD013": false,
+        "MD002": false, //禁用文章开头必须为H1标题栏
+        "MD033": false, //disable no-inline-html
+        "MD041": false, //disable first-line-h1
+  }
+```
+
+参考:  
+<https://github.com/jekyll/minima>  
+<https://github.com/stidio/stidio.github.io>
