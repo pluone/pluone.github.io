@@ -5,14 +5,16 @@ date:   2018-08-12 21:00:00 +0800
 categories: java
 ---
 
-![Java线程状态转换图](/assets/thread-state.png)
+问:什么情况下线程的状态是TIMED_WAIT?  
 
-问:什么情况下线程的状态是TIMED_WAIT
+```java
 Thread.sleep(sleep_time);
 o.wait(timeout);
 t.join(timeout);
 LockSupport.parkNanos(timeout);
 LockSupport.parkUnitl(timeout);
+```
 
+![Java线程状态转换图](/assets/thread-state.png)
 参考:  
 <https://www.uml-diagrams.org/examples/java-6-thread-state-machine-diagram-example.html>
