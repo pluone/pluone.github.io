@@ -163,6 +163,10 @@ gitflow的整体流程如下:
 6. 生产环境上发现问题时从master上创建hotfix分支
 7. hotfix完成后被合并到master和develop上
 
+网络上关于gitflow的文章很多,亦可参见:  
+[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)  
+[git-flow 备忘清单](https://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html)
+
 参考:  
 全文翻译自,做了适当修改  
 <https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow>
