@@ -8,6 +8,7 @@ excerpt_separator: <!--more-->
 ---
 mysql的innodb引擎提供了对事务的支持，而这种支持和innodb提供的各种类型的锁有着紧密的关系，本文主要了解innodb提供的锁类型。
 <!--more-->
+
 ## 基本锁类型
 
 所有的锁都可以分为两类，共享锁(shared lock)和拍他锁(exclusive lock)  
@@ -63,8 +64,4 @@ next-key lock是记录锁和在记录之前的间隙的间隙锁的组合。
 
 是一种特殊类型的表锁，对AUTO_INCREMENT列执行插入操作的事务需要获取该锁。
 
-<<<<<<< HEAD
 > An AUTO-INC lock is a special table-level lock taken by transactions inserting into tables with AUTO_INCREMENT columns. In the simplest case, if one transaction is inserting values into the table, any other transactions must wait to do their own inserts into that table, so that rows inserted by the first transaction receive consecutive primary key values.
-=======
-> An AUTO-INC lock is a special table-level lock taken by transactions inserting into tables with AUTO_INCREMENT columns. In the simplest case, if one transaction is inserting values into the table, any other transactions must wait to do their own inserts into that table, so that rows inserted by the first transaction receive consecutive primary key values.
->>>>>>> d789f11b1296b98400babe1556c4a00d2540b39b
