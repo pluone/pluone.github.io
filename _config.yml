@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: Frank Pei's Blog
 subtitle:
 description:
   忙忙碌碌每一天,做的事情却不过是搬砖;
@@ -16,8 +16,8 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
-baseurl:
+url: "https://pluone.github.io"
+baseurl: ""
 permalink: pretty
 
 # Pagination
@@ -81,7 +81,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Java, 技术, 博客, Frank' Pei, 裴路"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -95,7 +95,7 @@ rss:
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -107,7 +107,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
@@ -228,8 +228,8 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  Twitter: twitter
+  GitHub: pluone
+  Twitter: peiluone
   Weibo: weibo
 
 
@@ -382,8 +382,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: pluone
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -438,7 +438,7 @@ gitalk:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-120229183-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
