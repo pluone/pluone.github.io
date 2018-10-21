@@ -2,7 +2,7 @@
 layout: post
 title:  "gitflow工作流程"
 date:   2018-09-03 12:00:00 +0800
-categories: java
+categories: 后端开发
 ---
 
 gitflow是使用git协作的一个工作流程,是经由Vincent Driessen at nvie提出和发扬光大的.  

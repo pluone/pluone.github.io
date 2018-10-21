@@ -2,7 +2,7 @@
 layout: post
 title:  "为什么说HashMap是无序的"
 date:   2018-08-09 22:00:00 +0800
-categories: java
+categories: 后端开发
 ---
 
 HashMap和HashSet遍历元素时是无序的,这恐怕是一个常识了,但是你有没有想过为什么是无序的?

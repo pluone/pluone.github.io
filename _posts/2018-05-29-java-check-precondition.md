@@ -2,7 +2,7 @@
 layout: post
 title:  "Java开发中判断前置条件的几种方式"
 date:   2018-05-29 15:00:00 +0800
-categories: Java
+categories: 后端开发
 ---
 
 Java开发中常常需要检查一个方法的参数是否满足特定条件,满足才能进行下一步.
