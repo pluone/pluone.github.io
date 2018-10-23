@@ -81,5 +81,6 @@ HashMap中元素的遍历是按照从数组起始位置开始,首先将当前buc
 ![sxx](/assets/hashmap.jpg)
 
 ## TreeMap和LinkedHashMap是如何实现有序的
+
 TreeMap的底层数据结构是一棵红黑树,红黑树上的元素都是有顺序的.  
 LinkedHashMap底层数据结构就是一个双向链表,元素遍历的顺序就是链表从前到后的顺序,因此也是有序的.
