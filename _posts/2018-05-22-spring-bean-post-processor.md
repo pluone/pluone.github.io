@@ -2,7 +2,7 @@
 layout: post
 title:  "Spring框架BeanPostProcessor解读"
 date:   2018-05-22 18:00:00 +0800
-categories: 框架
+categories: 后端开发
 ---
 
 按照Spring bean的生命周期，先读取BeanDefinition，然后是实例化，之后是初始化，而`BeanPostProcessor`就是作用在实例化阶段之后，围绕着初始化阶段。

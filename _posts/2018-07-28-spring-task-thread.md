@@ -2,7 +2,7 @@
 layout: post
 title:  "Spring定时任务单线程执行之源码分析"
 date:   2018-07-28 17:00:00 +0800
-categories: 框架
+categories: 后端开发
 ---
 
 spring定时任务`@EnableScheduling`默认单线程执行造成了的后果:  

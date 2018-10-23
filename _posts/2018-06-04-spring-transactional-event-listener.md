@@ -2,7 +2,7 @@
 layout: post
 title:  "理解TransactionalEventListener"
 date:   2018-06-04 18:00:00 +0800
-categories: framework
+categories: 后端开发
 ---
 
 ## 使用EventListener

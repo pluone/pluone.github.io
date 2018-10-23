@@ -2,7 +2,7 @@
 layout: post
 title:  "如何用Jekyll写blog?"
 date:   2018-05-10 18:00:00 +0800
-categories: jekyll update
+categories: 杂项
 ---
 
 jekyll的blog存放在`_posts`目录下,文件名格式是`YEAR-MONTH-DAY-title.md`,其中年必须是4位数字,月和日必须是2位数字

@@ -2,7 +2,7 @@
 layout: post
 title:  "由java system property引起的问题及源码分析"
 date:   2018-08-08 21:00:00 +0800
-categories: 框架
+categories: 后端开发
 ---
 
 ## 问题的发生过程是这样的
