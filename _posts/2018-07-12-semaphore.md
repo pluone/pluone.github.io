@@ -2,7 +2,7 @@
 layout: post
 title:  "Semaphore(信号量)"
 date:   2018-07-12 21:00:00 +0800
-categories: concurrency
+categories: 多线程和并发
 ---
 
 信号量用于控制同一时刻可以同时访问某一资源的最大允许数量，常见的使用场景是连接池。  

@@ -2,7 +2,7 @@
 layout: post
 title:  "CountDownLatch(倒计数锁存器)"
 date:   2018-08-10 22:00:00 +0800
-categories: concurrency
+categories: 多线程和并发
 ---
 
 题外话:这片文章是5月5号写的,今天面试的时候提到这个场景,我竟然脑海中有却没敢答出来,还是知识掌握不够牢固啊.现在发出来温故知新一下.
