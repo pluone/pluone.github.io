@@ -9,7 +9,7 @@ subtitle:
 description:
   忙忙碌碌每一天,做的事情却不过是搬砖;
   停下脚步,这里是独立思考的时间
-author: Frank Pei
+author: 先飞
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -81,7 +81,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Java, 技术, 博客, Frank' Pei, 裴路"
+keywords: "Java, 技术, 博客, 先飞"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.

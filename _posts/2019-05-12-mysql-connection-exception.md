@@ -7,11 +7,11 @@ excerpt_separator: <!--more-->
 ---
 
 本文主要分析了web应用在使用过程中频繁报数据库连接异常的原因，以及解决方案。
-<!--more-->
 
 ## 问题描述
 
 从前端页面请求后端接口，页面拿不到任何数据，后台一直报相同的错误，重启应用可以临时解决该问题，异常堆栈如下：
+<!--more-->
 
 ```java
 org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.

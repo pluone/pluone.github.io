@@ -3,7 +3,9 @@ layout: post
 title:  "spring mvc multipart配置源码解析"
 date:   2019-07-06 16:00:00 +0800
 categories: 源码解析
+excerpt_separator: <!--more-->
 ---
+multipart配置主要用来控制tomcat容器上传文件的大小，本文主要从源码的角度分析了multipart的配置是如何起作用的。
 
 ## multipart配置的作用
 
@@ -11,7 +13,7 @@ multipart的配置主要有两个
 maxFileSize 用于配置允许上传的单个文件的最大值
 maxRequestSize 用于配置单个请求中允许上传的最大值，一个请求中可以上传多个文件
 spring 2.x最新的配置为:
-
+<!--more-->
 ```yaml
 spring.servlet.multipart.max-file-size: 10MB
 spring.servlet.multipart.max-request-size: 100MB
