@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "策略模式"
-date:   2019-07-06 16:00:00 +0800
+date:   2019-08-25 22:00:00 +0800
 categories: 设计模式
 excerpt_separator: <!--more-->
 ---
