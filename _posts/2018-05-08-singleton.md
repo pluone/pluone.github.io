@@ -107,5 +107,5 @@ public class Singleton {
 
 参考:  
 《Java Concurrency In Practice》第16章  
-[https://javadoop.com/post/design-pattern#toc4](https://javadoop.com/post/design-pattern#toc4)  
+[https://javadoop.com/post/java-memory-model](https://javadoop.com/post/java-memory-model)  
 [stackoverflow](https://stackoverflow.com/questions/7855700/why-is-volatile-used-in-double-checked-locking)
