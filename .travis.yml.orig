@@ -1,8 +1,8 @@
 language: ruby
 rvm:
 - 2.6.3
-install: bundle install
-script: jekyll build
+install: gem install jekyll html-proofer
+script: jekyll build && htmlproofer ./_site
 branches:
   only:
   - master
@@ -10,8 +10,6 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 addons:
-  ssh_known_hosts:
-  - 182.92.109.174:2222
   apt:
     packages:
     - libcurl4-openssl-dev
