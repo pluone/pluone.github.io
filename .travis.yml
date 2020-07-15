@@ -28,6 +28,6 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: scp -P2222 -r $TRAVIS_BUILD_DIR/_site root@182.92.109.174:/tmp/$TRAVIS_BUILD_ID
+  script: scp -v -P2222 -r $TRAVIS_BUILD_DIR/_site root@182.92.109.174:/tmp/$TRAVIS_BUILD_ID
   on:
     branch: master
