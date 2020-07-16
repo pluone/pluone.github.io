@@ -8,12 +8,12 @@ categories: 后端开发
 
 首先回答一个问题，tomcat为什么要设计自己的类加载机制？
 
-> Java标准的类加载器及其双亲委派机制是`AppClassLoader -> ExtClassLoader -> BootstrapClassLoader`,
-其中`AppClassLoader`是系统默认的类加载器
-
 我们用反证法来解答一下这个问题。tomcat是一个servlet容器，加载servlet类需要一个类加载器，
 如果不用自己的类加载器，那么会使用默认的`AppClassLoader`，但是使用
 `AppClassLoader`会带来一些问题，具体说来：
+
+> Java标准的类加载器及其双亲委派机制是`AppClassLoader -> ExtClassLoader -> BootstrapClassLoader`,
+其中`AppClassLoader`是系统默认的类加载器
 
 因为一个tomcat下可以同时部署多个项目（或者说应用），项目于项目之间的servlet类
 需要互相隔离开，如果使用AppClassLoader则所有项目共享相同的类路径（CLASSPATH），项目于项目的源码之间
